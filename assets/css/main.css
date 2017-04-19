@@ -1,0 +1,44 @@
+*{
+  font-family: Helvetica;
+}
+.opacity {
+  -webkit-filter: opacity(50%);
+  filter: opacity(50%);
+}
+
+.opacity:hover{
+  -webkit-filter: opacity(100%);
+  filter: opacity(100%);
+}
+
+#nuestrasCoders{
+  position: relative;
+}
+.divisor{
+  position: absolute;
+  background-color: black;
+  width: 100px;
+  height: 4px;
+}
+
+.container {
+  width: 300px;
+  position: relative;
+  display: inline-block;
+  margin: 30px;
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+img{
+  width: 300px;
+}
+
+#imagenesCoders{
+
+  margin-top: 50px;
+}
