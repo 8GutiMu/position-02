@@ -1,3 +1,8 @@
+@font-face {
+font-family: luna;
+src: assets\fuentes\Luna.tff;
+}
+
 *{
   font-family: Helvetica;
 }
@@ -23,7 +28,7 @@
 }
 
 .container {
-  width: 300px;
+  width: 200px;
   position: relative;
   display: inline-block;
   margin: 30px;
@@ -32,14 +37,18 @@
 .bottomright {
     position: absolute;
     bottom: 8px;
-    right: 16px;
-    font-size: 18px;
+    right: 10px;
+    font-size: 15px;
+    font-family: luna;
+    color: #FFF;
+    text-shadow: 2px 2px #000;
 }
 img{
-  width: 300px;
+  width: 200px;
 }
 
 #imagenesCoders{
-
   margin-top: 50px;
+  
+
 }
