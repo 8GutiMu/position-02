@@ -11,6 +11,13 @@ src: assets\fuentes\Luna.tff;
   filter: opacity(50%);
 }
 
+.logo{
+  width: 100px;
+  position: absolute;
+  right: 20px;
+  top: 0px;
+}
+
 .opacity:hover{
   -webkit-filter: opacity(100%);
   filter: opacity(100%);
@@ -49,6 +56,6 @@ img{
 
 #imagenesCoders{
   margin-top: 50px;
-  
+
 
 }
